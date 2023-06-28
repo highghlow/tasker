@@ -1,6 +1,6 @@
 [project]
 name = "tskmanager"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
   { name="Highghlow", email="highghlow@proton.me" },
 ]
