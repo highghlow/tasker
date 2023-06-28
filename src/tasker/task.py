@@ -32,7 +32,7 @@ class Task:
                 succeeded.append(instance)
         return succeeded
 
-    def run(self, *args, attached_stream, **kwargs):
+    def run(self, *args, attached_stream=None, **kwargs):
         new_instance = TaskInstance(self, args, kwargs, attach_output=attached_stream)
         self._instances.append(new_instance)
         return new_instance
